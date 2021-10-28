@@ -48,4 +48,5 @@ void pablo(float posx, float posy) {
   line(m*3+m/2, m*8, m*5+(m/4*3), m*8);
   line(m*5+(m/4*3), m*8, m*5+(m/4*3), m*10);
   arc(m*3, m*8, m, m, radians(0), radians(180));
+  pop();
 }
