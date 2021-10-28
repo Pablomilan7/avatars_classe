@@ -1,7 +1,8 @@
 void pablo(float posx, float posy) {
-  //cara
   push();
   translate(posx, posy);
+  
+  //cara
   rect (m, m, m*4, m*5);
   
   //oreja.i
